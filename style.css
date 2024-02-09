@@ -1,0 +1,219 @@
+/* Página en general*/
+/*--------------------------------------------------------------*/
+body{
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+/*--------------------------------------------------------------*/
+
+/*Header*/
+/*--------------------------------------------------------------*/
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 16px 200px;
+}
+/*------------------------Logo---------------------------------*/
+.header div{
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 700;
+    align-self: center;
+}
+/*-------------------Lista de Links----------------------------*/
+.header ul {
+    display: flex;
+    color: #E5E7EB;
+    font-size: 16px;
+    gap: 16px;
+    list-style-type: none;
+}
+/*--------------------------------------------------------------*/
+
+/*Landing Page*/
+/*--------------------------------------------------------------*/
+.landing{
+    display: flex;
+    background-color: #1F2937;
+    align-items: stretch;
+    padding: 75px 200px;
+    margin-bottom: 0px;
+    gap: 8px;
+}
+/*----------------Contenedor Principal--------------------------*/
+.landing .contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1;
+}
+
+/*---------------------------H1---------------------------------*/
+.landing h1{
+    color: #E5E7EB;
+    font-size: 36px;
+    margin: 0;
+}
+/*-----------------------Párrafo--------------------------------*/
+.landing p{
+    margin-top: 0;
+    color: #E5E7EB;
+}
+/*-------------------------Botón--------------------------------*/
+.landing button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+}
+/*----------------------Imagen----------------------------------*/
+.landing .image{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    color: white;
+    background-color: #757575;
+    justify-content: center;
+    flex: 1;
+}
+/*--------------------------------------------------------------*/
+
+/*Información Random*/
+/*--------------------------------------------------------------*/
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 32px 300px 32px;
+}
+/*-------------------Titulo de la sección------------------------*/
+.information h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+/*-------------------Contenedor de Cuadrados---------------------*/
+.information .cuadrados{
+    display: flex;
+    gap: 16px;
+}
+/*--------------------Cuadrado Individual------------------------*/
+.information .cuadrados .cuadrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*--------------------Bordes Cuadrado-----------------------------*/
+.information .cuadrados .cuadrado div{
+    background-color: aliceblue;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px solid #3882F6;
+    background-color: white;
+}
+/*------------------------Texto-----------------------------------*/
+.information .cuadrados .cuadrado p{
+    text-align: center; 
+}
+/*--------------------------------------------------------------*/
+
+/*Frase Thor*/
+/*--------------------------------------------------------------*/
+.thor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 35px 350px 35px;
+    font-weight: 300; 
+    font-style: italic;
+    font-size: 36px;
+}
+/*-----------------------------Autor----------------------------*/
+.thor .autor{
+    display: flex;
+    align-self: flex-end;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+/*--------------------------------------------------------------*/
+
+/*Call to Action*/
+/*--------------------------------------------------------------*/
+.call{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 200px;
+    margin: 0;
+}
+/*--------------------Contenedor Secundario---------------------*/
+.call .cta{
+    background-color: #3882F6;
+    display: flex;
+    margin: 35px;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}
+/*----------------------Título y Texto--------------------------*/
+.call .cta .txt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    flex: 3;
+}
+/*--------------------------Título------------------------------*/
+.call .cta h3{
+    margin-bottom: 0;
+}
+/*---------------------------Texto------------------------------*/
+.call .cta p{
+    margin-top: 0;
+}
+/*-----------------------------Botón----------------------------*/
+.call .cta .cta-button{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 7px;
+    align-items: center;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    flex: 2;
+    padding: 3px 0px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 500px;
+    font-size: 18px;
+    font-weight: 300px;
+}
